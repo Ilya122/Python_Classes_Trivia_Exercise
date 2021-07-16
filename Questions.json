@@ -1,0 +1,53 @@
+{
+    "Categories": [
+        {
+            "Name": "Science",
+            "Questions": [
+                {
+                    "Content": "The Harvard architecture for micro-controllers added which additional bus?",
+                    "Answers": [
+                        "Address",
+                        "Data",
+                        "Control",
+                        "Instruction"
+                    ],
+                    "CorrentAnswerIndex": 3,
+                    "Difficulty": "Hard"
+                },
+                {
+                    "Content": "What does the MP stand for in MP3?",
+                    "Answers": [
+                        "Music Player",
+                        "Moving Picture",
+                        "Multi Pass",
+                        "Micro Point"
+                    ],
+                    "CorrentAnswerIndex": 1,
+                    "Difficulty": "Easy"
+                },
+                {
+                    "Content": "What does AD stand for in relation to Windows Operating Systems?",
+                    "Answers": [
+                        "Alternative Drive",
+                        "Automated Database",
+                        "Active Directory",
+                        "Active Department"
+                    ],
+                    "CorrentAnswerIndex": 2,
+                    "Difficulty": "Medium"
+                },
+                {
+                    "Content": "What does LAN stand for?",
+                    "Answers": [
+                        "Local Area Network",
+                        "Long Antenna Node",
+                        "Light Access Node",
+                        "Land Address Navigation"
+                    ],
+                    "CorrentAnswerIndex": 0,
+                    "Difficulty": "Easy"
+                }
+            ]
+        }
+    ]
+}
