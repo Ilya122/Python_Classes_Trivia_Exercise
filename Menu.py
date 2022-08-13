@@ -1,4 +1,3 @@
-from PlayerNameGenerator import PlayerNameGenerator
 from Game import Game
 from QuestionsLoader import JsonTriviaQuestionsloader
 from ActivePlayers import ActivePlayers

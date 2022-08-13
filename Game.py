@@ -30,7 +30,7 @@ class Game:
             self.__printSeperateLine()
 
             selectedCategory = self.__selectCategory()
-            if selectedCategory == None:
+            if selectedCategory is None:
                 print('No more questions available!')
                 break
 
@@ -58,7 +58,7 @@ class Game:
 
         # TODO: int parse + Bound check
         selected = GetIntegerFromUser('Select Category: ', 1, categoryNum)
-        selectedCat = self.__categories[selected-1]
+        selectedCat = self.__categories[selected - 1]
         return selectedCat
 
     def __areMoreQuestions(self):
@@ -73,7 +73,7 @@ class Game:
         question: Question = ()
 
         while selecting:
-            randomIndex = random.randint(0, amountOfQuestions-1)
+            randomIndex = random.randint(0, amountOfQuestions - 1)
             question = selectedCategory.Questions[randomIndex]
             selecting = question.WasAnswered
         return question

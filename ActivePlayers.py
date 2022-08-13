@@ -1,5 +1,5 @@
 import random
-from PlayerNameGenerator import PlayerNameGenerator, BrooklynNameGenerator
+from PlayerNameGenerator import BrooklynNameGenerator
 from Models.Player import Player
 
 

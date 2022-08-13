@@ -4,11 +4,15 @@ from Models.Question import Question
 import random
 
 # Loads through source questions
+
+
 class TriviaQuestionsLoader:
     def Load(self):
         pass
 
 # Loads the questions from a json file
+
+
 class JsonTriviaQuestionsloader(TriviaQuestionsLoader):
     def __init__(self):
         self.FileName = 'Questions.json'

@@ -5,7 +5,7 @@ def GetIntegerFromUser(message, min, max):
         userNum = input(message)
         try:
             number = int(userNum)
-        except ValueError as e:
+        except ValueError:
             print('Please enter a valid number!')
             continue
         if number < min or number > max:
